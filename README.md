@@ -1,7 +1,5 @@
 # Cabiné dentaire
 
-Ce projet est une application web pour la vente de plantes en ligne, nommée NatureEmoi. L'objectif est de fournir aux utilisateurs une plateforme conviviale où ils peuvent parcourir une sélection de plantes disponibles à l'achat, passer des commandes et bénéficier de différents services associés.
-
 ## Fonctionnalités principales
 
 1. **Navigation facile**: Le site offre une navigation intuitive avec un menu principal permettant aux utilisateurs de se rendre rapidement sur les différentes sections du site, telles que la page d'accueil 
