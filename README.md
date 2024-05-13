@@ -7,7 +7,8 @@ Ce projet est une application web pour la vente de plantes en ligne, nommée Nat
 1. **Navigation facile**: Le site offre une navigation intuitive avec un menu principal permettant aux utilisateurs de se rendre rapidement sur les différentes sections du site, telles que la page d'accueil 
 
 
-3. **Services offerts**:
+3. **Services offerts**:notre site de cabiné dentaire offres des nombreuse service ,
+avec ses différents sections telques prendre des rendevous avec le doctor de vos choix et aussi consulter les informations consernant le cabiné 
 
 4. **Les difficulté rencontrer**: 
 
