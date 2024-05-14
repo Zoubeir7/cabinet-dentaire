@@ -135,14 +135,43 @@ span {
     background-color: var(--primary);
     padding: 20px;
     height: 200px;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     align-items: center;
+}
+
+.text {
+    margin-right: 200px;
+    color: var(--white);
+    position: absolute;
+    left: 150px;
+    font-size: 25px;
+}
+
+.text h2 {
+    font-size: 45px;
+    font-weight: 400;
 }
 
 .phrase {
     color: var(--whiteBG);
     font-size: medium;
     font-weight: 200;
+}
+
+.service .contener {
+    display: flex;
+    position: absolute;
+    right: 150px;
+
+
+}
+
+#call,
+#p {
+    color: var(--muted);
+    font-size: 15px;
+    margin: 3px;
+
 }
 
 #call {
@@ -154,6 +183,7 @@ span {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 60px;
 }
 
 #call img {
@@ -163,12 +193,7 @@ span {
 
 }
 
-#call,
-#p {
-    color: var(--muted);
-    font-size: small;
-    margin: 3px;
-}
+
 
 /* 
 partie provide */
@@ -179,19 +204,31 @@ partie provide */
 
 .checkout {
     display: flex;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+    position: relative;
 }
 
 .checkout .class-img {
-    width: 45%;
+    width: 35%;
+    background-color: var(--whiteBG);
+    height: 50vh;
+    border-bottom-right-radius: 50px;
+    padding-top: 100px;
+
 }
 
 .ctn {
     width: 65%;
-
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    left: 500px;
+    top: 100px;
+    font-size: 20px;
+    color: var(--defaultLinkColor);
 }
 
 /* 
@@ -200,6 +237,16 @@ part special */
 .special {
     display: flex;
     flex-direction: column;
+}
+
+.div-title {
+    width: 80%;
+    margin-left: 10%;
+    line-height: 10px;
+}
+
+.div-title p {
+    margin-bottom: 7px;
 }
 
 .div-title1 {
@@ -232,15 +279,15 @@ part special */
 }
 
 .fille {
-    border: 1px solid black;
+    border: 1px solid var(--muted);
     background-color: #F8FAFC;
     border-radius: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin: 40px;
-    width: 50%;
-    padding: 20px;
+    width: 20%;
+    padding: 15px;
 }
 
 .pere {
@@ -277,10 +324,10 @@ part special */
     align-items: center;
     background-color: var(--primary);
     height: 20vh;
-    width: 100%;
+    /* width: 100%; */
     flex-direction: column;
     padding: 90px;
-    margin-right: 90px;
+    /* margin-right: 90px; */
     text-align: center;
 
 }
@@ -319,6 +366,8 @@ part special */
 .secial-2 {
     display: flex;
     flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
 }
 
 
@@ -362,7 +411,12 @@ part special */
 }
 
 hr {
-    width: 500%;
+    width: 400%;
+}
+
+.we-are p span {
+    color: var(--yellow);
+
 }
 
 .title-2 p {
@@ -370,6 +424,14 @@ hr {
     font-weight: bold;
 }
 
+.title-2 span {
+    color: black;
+    font-weight: bold;
+}
+
+.history {
+    text-align: right;
+}
 
 /* section docteur  */
 
@@ -379,7 +441,7 @@ hr {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 
 }
 
@@ -408,10 +470,17 @@ hr {
     border: 1px solid var(--lightprimary);
     color: var(--lightprimary);
     background-color: var(--white);
+    font-weight: lighter;
 }
 
 
 
+.mon-titre p {
+    font-weight: lighter;
+    font-size: 13px;
+    margin-top: 10px;
+
+}
 
 .client {
     display: flex;
@@ -455,30 +524,13 @@ hr {
 }
 
 
+.mon-titre h5 {
+    margin-bottom: 0px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.mon-titre p {
+    line-height: 20px;
+}
 
 
 
@@ -539,7 +591,7 @@ hr {
 
 .formular {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 .gestion {
@@ -552,13 +604,15 @@ hr {
 input {
     width: 250px;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 7px;
+    border: 1px var(--silver) solid;
 }
 
 select {
     height: 30px;
     width: 250px;
-    border-radius: 10px;
+    border-radius: 7px;
+    border: 1px var(--silver) solid;
 }
 
 .checkbox {
@@ -574,6 +628,9 @@ textarea {
     width: 520px;
     margin-bottom: 10px;
     height: 100px;
+    border-radius: 7px;
+    border: 1px var(--silver) solid;
+    resize: none;
 }
 
 .gestion .tel {
