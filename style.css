@@ -591,7 +591,8 @@ hr {
 
 .formular {
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+
 }
 
 .gestion {
@@ -687,6 +688,7 @@ textarea {
 .section-in h3 {
     font-size: 30px;
     color: #f8fafc;
+
 }
 
 .btn-in {
@@ -694,6 +696,25 @@ textarea {
     width: 60%;
     justify-content: space-around;
 }
+
+.btn-in button {
+    background-color: #6393a8;
+}
+
+.btn-in button {
+    background-color: var(--whiteBG);
+    color: var(--muted);
+}
+
+.btn-in input {
+    background-color: #6393a8;
+}
+
+input ::placeholder {
+    color: var(--white);
+}
+
+
 
 
 /* 
@@ -715,17 +736,21 @@ footer */
 
 }
 
-.div- {
+.fotter-1 {
     width: 400px;
     place-content: center;
     text-align: center;
     border-right: 1px solid var(--silver);
 }
 
-.div- img {
+.fotter-1 img {
     filter: brightness(0) invert(1);
 }
 
+
+.fotter-1 a {
+    color: var(--whiteBG);
+}
 
 
 
