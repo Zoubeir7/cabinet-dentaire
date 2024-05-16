@@ -205,8 +205,6 @@ span {
 
 }
 
-
-
 /* 
 partie provide */
 
@@ -253,11 +251,24 @@ part special */
 .div-title {
     width: 80%;
     margin-left: 10%;
-    line-height: 10px;
+    line-height: 1px;
 }
 
+
+.div-title::after {
+    margin-left: 25%;
+    position: absolute;
+    content: "";
+    padding: 1px;
+    transform: translateY(-45px);
+    left: 0;
+    width: 65%;
+    background-color: var(--muted);
+}
+
+
 .div-title p {
-    margin-bottom: 7px;
+    margin-bottom: 5px;
 }
 
 .div-title1 {
@@ -269,7 +280,7 @@ part special */
     display: flex;
     width: 80%;
     justify-content: end;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
 }
 
 .div-title p {
@@ -294,11 +305,12 @@ part special */
 
 }
 
-.fille img {
+
+.Doctor img {
     margin: 0;
 }
 
-.fille {
+.Doctor {
     border: 1px solid var(--silver);
     background-color: #F8FAFC;
     border-radius: 10px;
@@ -310,24 +322,8 @@ part special */
     padding: 15px;
 }
 
-.pere {
-    display: flex;
-    width: 80%;
-    justify-content: center;
 
-}
-
-.pere img {
-    width: 50px;
-    margin: 0px;
-}
-
-.mere img {
-    width: 50px;
-    margin: 0px;
-}
-
-.classM {
+.classDoctor {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -335,6 +331,8 @@ part special */
     align-items: center;
     height: 100vh;
 }
+
+
 
 /* la deuxieme partie bleu  */
 
@@ -462,16 +460,20 @@ hr {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
 
 }
 
 
 .mon-titre {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 90%;
-    margin: 20px 90px;
+    align-items: center;
+    gap: 100px;
+    margin-left: 5%;
+    margin-top: 20px;
+
 }
 
 
@@ -480,6 +482,8 @@ hr {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+
 }
 
 
@@ -492,6 +496,7 @@ hr {
     color: var(--lightprimary);
     background-color: var(--white);
     font-weight: lighter;
+    width: 80%;
 }
 
 
@@ -661,7 +666,7 @@ textarea {
     width: 150px;
 }
 
-.form-r {
+.form-right {
     width: 600px;
     height: 500px;
     margin-left: 70px;
@@ -669,18 +674,17 @@ textarea {
     padding-top: 60px;
 }
 
-.form-r button {
+.form-right button {
     width: 520px;
 }
 
-.form-l img {
+.form-left img {
     height: 500px;
 }
 
-#frl {
+#formulaire {
     display: flex;
     justify-content: space-around;
-
 }
 
 
@@ -729,6 +733,7 @@ textarea {
 
 .btn-in input {
     background-color: #6393a8;
+    margin: 10px;
 }
 
 input ::placeholder {
@@ -745,6 +750,7 @@ footer */
     display: flex;
     background-color: var(--primary);
     width: 100%;
+    justify-content: center;
 }
 
 .visite {
@@ -773,101 +779,15 @@ footer */
     color: var(--whiteBG);
 }
 
+.partigras p {
+    font-weight: bold;
+
+}
+
 .lien {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ma .div-1 {
-    /* Ajoutez vos règles de style ici */
-    background-color: var(--primary);
-    /* Définit la couleur de fond */
-    padding: 20px;
-    /* Ajoute un espacement intérieur de 20 pixels */
-    border: 1px solid #ccc;
-    /* Ajoute une bordure de 1 pixel solide avec une couleur de #ccc */
-}
-
-.div-1 h2 {
-    color: var(--white);
-    /* Change la couleur du texte des titres h2 */
-}
-
-.div-1 p {
-    font-size: 16px;
-    /* Définit la taille de police des paragraphes à 16 pixels */
-    line-height: 1.5;
-    color: var(--white);
-    /* Définit la hauteur de ligne à 1.5 fois la taille de la police */
-}
-
-.div-1 img {
-    margin-right: 10px;
-    /* Ajoute un espacement à droite de 10 pixels pour les images */
 }
 
 
