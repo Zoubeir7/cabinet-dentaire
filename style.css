@@ -60,7 +60,7 @@ button {
 
 /* navbar */
 
-.premier-section {
+.premiersection {
     margin-top: 20px;
     height: 90vh;
 }
@@ -248,14 +248,14 @@ part special */
     flex-direction: column;
 }
 
-.div-title {
+.divtitle {
     width: 80%;
     margin-left: 10%;
     line-height: 1px;
 }
 
 
-.div-title::after {
+.divtitle::after {
     margin-left: 25%;
     position: absolute;
     content: "";
@@ -267,33 +267,33 @@ part special */
 }
 
 
-.div-title p {
+.divtitle p {
     margin-bottom: 5px;
 }
 
-.div-title1 {
+.divtitle1 {
     display: flex;
     justify-content: space-between;
 }
 
-.div-title1 p {
+.divtitle1 p {
     display: flex;
     width: 80%;
     justify-content: end;
     /* border-bottom: 1px solid black; */
 }
 
-.div-title p {
+.divtitle p {
     font-size: 50px;
     font-weight: bold;
 }
 
-.div-title1 p {
+.divtitle1 p {
     font-size: xx-large;
     font-weight: bold;
 }
 
-.contener-image {
+.contenerimage {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 80%;
@@ -337,7 +337,7 @@ part special */
 /* la deuxieme partie bleu  */
 
 
-.para-bleu {
+.parableu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -360,29 +360,29 @@ part special */
 }
 
 
-.para-bleu p {
+.parableu p {
     color: var(--white);
     font-size: 12px;
 
 }
 
-.para-bleu h2 {
+.parableu h2 {
     font-size: 30px;
     font-weight: 400;
     color: var(--white);
 }
 
-.para-bleu button {
+.parableu button {
     font-weight: 200;
     margin: 10px;
     padding: 20px;
     width: 15%;
-
+    cursor: pointer;
 }
 
 /* qui somme nous  */
 
-.secial-2 {
+.secial2 {
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -390,12 +390,12 @@ part special */
 }
 
 
-.title-2 {
+.title2 {
     display: flex;
     justify-content: center;
 }
 
-#who .secial-2 img {
+#who .secial2 img {
     width: 80%;
 
 }
@@ -407,14 +407,14 @@ part special */
 }
 
 
-.para-2 h3 {
+.para2 h3 {
     color: var(--defaultLinkColor);
     font-size: 20px;
     font-weight: bold
 }
 
 
-#who .para-2 {
+#who .para2 {
     border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
@@ -424,7 +424,7 @@ part special */
     color: var(--muted);
 }
 
-.secial-2 .title-2 {
+.secial2 .title2 {
     display: flex;
     justify-content: space-between;
 }
@@ -433,17 +433,17 @@ hr {
     width: 400%;
 }
 
-.we-are p span {
+.weare p span {
     color: var(--yellow);
 
 }
 
-.title-2 p {
+.title2 p {
     font-size: 50px;
     font-weight: bold;
 }
 
-.title-2 span {
+.title2 span {
     color: black;
     font-weight: bold;
 }
@@ -456,7 +456,7 @@ hr {
 
 
 
-.special-3 {
+.special3 {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -465,7 +465,7 @@ hr {
 }
 
 
-.mon-titre {
+.montitre {
     display: flex;
     justify-content: center;
     width: 90%;
@@ -477,7 +477,7 @@ hr {
 }
 
 
-.mon-titre div {
+.montitre div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -487,21 +487,22 @@ hr {
 }
 
 
-.mon-titre img {
+.montitre img {
     margin: 0;
 }
 
-.mon-titre button {
+.montitre button {
     border: 1px solid var(--lightprimary);
     color: var(--lightprimary);
     background-color: var(--white);
     font-weight: lighter;
     width: 80%;
+    cursor: pointer;
 }
 
 
 
-.mon-titre p {
+.montitre p {
     font-weight: lighter;
     font-size: 13px;
     margin-top: 10px;
@@ -518,7 +519,7 @@ hr {
 }
 
 
-.client-star {
+.clientstar {
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -526,7 +527,7 @@ hr {
 
 }
 
-.client-l {
+.clientl {
     display: flex;
     width: 20%;
     padding: 5px;
@@ -538,11 +539,11 @@ hr {
     align-items: center;
 }
 
-.client-l img {
+.clientl img {
     margin: 0;
 }
 
-.client-r {
+.clientr {
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -550,25 +551,38 @@ hr {
 }
 
 
-.mon-titre h5 {
+.montitre h5 {
     margin-bottom: 0px;
 }
 
-.mon-titre p {
+.montitre p {
     line-height: 20px;
 }
 
+.troispoint {
+    display: flex;
+    justify-content: center;
+}
+
+
+.mespoint {
+    width: 12px;
+    height: 12px;
+    background-color: var(--silver);
+    border-radius: 50%;
+    margin: 12px;
+}
 
 
 
 /* la partie en formulaire */
 
-.title-form {
+.titleform {
     display: flex;
     justify-content: space-between;
 }
 
-.titre-1 {
+.titre1 {
     font-weight: bold;
     font-size: 50px;
     position: relative;
@@ -580,18 +594,18 @@ hr {
 
 }
 
-.titre-2 span {
+.titre2 span {
     font-size: 60px;
     font-weight: bold;
     color: var(--defaultLinkColor);
 }
 
-.titre-2 {
+.titre2 {
     font-weight: bold;
     font-size: 40px;
 }
 
-.titre-1::after {
+.titre1::after {
     position: absolute;
     content: "";
     padding: 1px;
@@ -649,6 +663,7 @@ select {
 
 .button button {
     margin-top: 15px;
+    cursor: pointer;
 }
 
 textarea {
@@ -666,7 +681,7 @@ textarea {
     width: 150px;
 }
 
-.form-right {
+.formright {
     width: 600px;
     height: 500px;
     margin-left: 70px;
@@ -674,11 +689,12 @@ textarea {
     padding-top: 60px;
 }
 
-.form-right button {
+.formright button {
     width: 520px;
+    cursor: pointer;
 }
 
-.form-left img {
+.formleft img {
     height: 500px;
 }
 
@@ -690,7 +706,7 @@ textarea {
 
 /* subscribe  */
 
-.section-centre {
+.sectioncentre {
     display: flex;
     background-color: var(--silver);
     height: 50vh;
@@ -699,7 +715,7 @@ textarea {
     width: 100%;
 }
 
-.section-in {
+.sectionin {
     display: flex;
     height: 30vh;
     background-color: #216583;
@@ -710,28 +726,29 @@ textarea {
     flex-direction: column;
 }
 
-.section-in h3 {
+.sectionin h3 {
     font-size: 30px;
     color: #f8fafc;
 
 }
 
-.btn-in {
+.btnin {
     display: flex;
     width: 60%;
     justify-content: space-around;
 }
 
-.btn-in button {
+.btnin button {
     background-color: #6393a8;
 }
 
-.btn-in button {
+.btnin button {
     background-color: var(--whiteBG);
     color: var(--muted);
+    cursor: pointer;
 }
 
-.btn-in input {
+.btnin input {
     background-color: #6393a8;
     margin: 10px;
 }
@@ -757,30 +774,39 @@ footer */
     display: flex;
     justify-content: space-between;
     align-content: center;
-    width: 80%;
+    width: 100%;
     color: var(--whiteBG);
     margin: 20px 80px;
 
 }
 
-.fotter-1 {
+.fotter1 {
+    display: flex;
+    flex-direction: column;
     width: 400px;
     place-content: center;
     text-align: center;
     border-right: 1px solid var(--silver);
 }
+.fotter-last {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    place-content: center;
+    text-align: center; 
+}
 
-.fotter-1 img {
+.fotter1 img {
     filter: brightness(0) invert(1);
 }
 
 
-.fotter-1 a {
+.fotter1 a {
     color: var(--whiteBG);
 }
 
-.partigras p {
-    font-weight: bold;
+.partigras h6 {
+    font-size: 30px;
 
 }
 
